@@ -10,7 +10,7 @@ Este repositório faz parte de um estudo prático que implementa um pipeline de 
 
 Construir um pipeline de dados que:
 
-1. **Extrai dados de câmbio** diariamente através da API Exchange Rates (USD, EUR, GBP em relação ao BRL).
+1. **Extrai dados de câmbio** diariamente através da [API Exchange Rates](https://apilayer.com/marketplace/exchangerates_data-api) (USD, EUR, GBP em relação ao BRL).
 2. Realiza o **processamento e padronização** dos dados com notebooks no Databricks.
 3. **Gera e envia relatórios automatizados** com dados e gráficos via Slack, todos os dias às 9h.
 
@@ -62,7 +62,7 @@ Construir um pipeline de dados que:
 ## 📌 Observações
 
 - Os gráficos são gerados dinamicamente e salvos na pasta `imagens/` antes de serem enviados.
-- A integração com o Slack utiliza tokens pessoais e webhooks (não incluídos no repositório).
+- A integração com o Slack e o API Exchange Rates utilizam tokens pessoais (não incluídos no repositório).
 - Cada notebook é executado via `DatabricksRunNowOperator`, referenciando o `job_id` correspondente para cada JOB no Databricks.
 
 ---
