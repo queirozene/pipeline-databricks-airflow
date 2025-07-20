@@ -2,7 +2,7 @@
 
 Este repositório faz parte de um estudo prático que implementa um pipeline de ETL utilizando **Apache Airflow**, **Azure Databricks** e integração com **Slack**, com o objetivo de extrair, transformar e reportar dados de câmbio.
 
-> ⚠️ **Aviso:** Este projeto está hospedado como portfólio e depende de conexões configuradas (Databricks e Slack) para execução completa.
+> ⚠️ **Aviso:** Este projeto está hospedado como portfólio e depende de conexões configuradas (Databricks, Slack e Airflow) para execução completa.
 
 ---
 
